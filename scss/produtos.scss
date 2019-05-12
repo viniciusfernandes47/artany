@@ -23,6 +23,7 @@
             font-weight: 900;
             background: #e60b25;
             display: inline-block;
+            padding: 0 4px;
         }
     }
     img {
@@ -62,8 +63,10 @@ section.slider_produto {
     align-items: center;
     justify-content: center;
     &:hover {
-        background: #FFF;
-        color: #e60b25;
+        background: #e60b25;
+        color: #FFF;
+        text-decoration: none;
+        border: none;
     }
 }
 
@@ -165,42 +168,6 @@ section.slider_produto {
     }
 }
 
-.icondown {
-    width: 30px;
-    height: 30px;
-    background-position: -209px -165px;
-    display: flex;
-}
-
-.download {
-    display: flex;
-    padding: 0;
-    width: 304px;
-    height: 49px;
-    background: #931907;
-    color: #FFF;
-    text-transform: uppercase;
-    border-radius: 0;
-    border: 0;
-    align-items: center;
-}
-
-.caixa_icone {
-    width:55px;
-    height: 49px;
-    background: #500e04;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.textobutton {
-    padding-left: 31px;
-    color: #FFF;
-    font-size: 18px;
-    letter-spacing: 0.025em;
-}
 
 .fundo_vermelho {
     width: 58%;
@@ -321,7 +288,57 @@ section.caracteristicas {
 .sidebar .ativo:before {
     background-position: -233px -11px;
 }
-
-.category {
-    display: none;
+.sidebar li:last-of-type a {
+    border: 0;
 }
+
+/* Produtos */
+.cada_produto {
+    margin-bottom: 27px;
+}
+.imagem_produto {
+    border: 1px solid #f7f5f0;
+}
+.cada_produto h3 {
+    font-size: 13px;
+    color: #d51a15;
+    letter-spacing: 0.05em;
+    line-height: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0px 31px;
+    background: #f7f5f0;
+    margin-bottom: 0;
+    min-height: 79px;
+    display: flex;
+    align-items: center;
+}
+
+.maisdetalhes {
+width: 165px;
+    height: 22px;
+    background: #931907;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 12px;
+    letter-spacing: 0.05em;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: -12px;
+    &:hover {
+        background: #a39a8a;
+        color: #931907;
+    }
+}
+
+.cada_produto:hover .maisdetalhes {
+        background: #a39a8a;
+        color: #931907;
+}
+
