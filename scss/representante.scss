@@ -1,0 +1,46 @@
+.encontre_representante {
+    padding-bottom: 118px;
+}
+.select_representante {
+    .estado {
+        width: 104px;
+        margin-right: 15px;
+    }
+    .cidade {
+        width: 194px;
+        margin-right: 15px;
+    }
+    .bairro {
+        width: 194px;
+        margin-right: 15px;
+    }
+    .ver_listagem {
+        width:218px;
+        margin-right: 15px;
+    }
+    .ver_mapa {
+        width: 198px;
+    }
+    button {
+        font-size: 16px;
+        letter-spacing: 0.2em;
+        color: #FFF;
+        background:#ba1700;
+        text-transform: uppercase;
+        border:0;
+        font-weight: bold;
+        &:hover {
+            background:#a39a8a;
+        }
+    }
+    .custom-select2-trigger {
+        width: 100%;
+    }
+}
+
+.mapa {
+    margin-top: 25px;
+    iframe {
+        border:2px solid #ba1700 !important;
+    }
+}

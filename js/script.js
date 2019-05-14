@@ -1,14 +1,4 @@
-$(document).ready(function () {
-    $('.sidebar a').click(function () {
-        $('[class^=category-]').hide('fast','linear');
-        var id = $(this).attr('id');
-        if(id == 'all') {
-             $('[class^=category-]').show('fast','linear');
-        } else {
-             $('.category-'+id).show('fast','linear');
-        }
-    });
-});
+
 
 $(".custom-select2").each(function() {
   var classes = $(this).attr("class"),
@@ -63,9 +53,76 @@ $('.slider-nav').slick({
   slidesToShow: 4,
   slidesToScroll: 1,
   asNavFor: '.slider-for',
-  prevArrow: '<div class="arrow feat-prev">&larr;</div>',
-        nextArrow: '<div class="arrow feat-next">&rarr;</div>',
-  dots: true,
   arrows: true,
   focusOnSelect: true
 });
+
+$('.lojas_slider').slick({
+  infinite: false,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  dots: false,
+  responsive: [
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+  ]
+});
+
+$('.mobile_linha').slick({
+  dots: false,
+  infinite: false,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+				
+
+$(".hamburger").click(function()
+{
+    $(".navigation").toggleClass("open_menu");
+});
+
+$('a[href^="#"]').on('click', function(event) {
+  var target = $(this.getAttribute('href'));
+
+  $('li.nav-item a').removeClass('active');
+  $(this).addClass('active');
+  if( target.length ) {
+      
+      event.preventDefault();
+      var top = (target.offset().top) - 140;
+      $('html, body').stop().animate({
+          scrollTop: top
+      }, 1000);
+  }
+});   

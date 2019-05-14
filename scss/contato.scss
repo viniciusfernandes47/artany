@@ -1,0 +1,98 @@
+.falecom {
+    padding-bottom: 44px;
+    input {
+        height: 50px;
+        border-radius: 1px;
+        background: #f0ece3;
+        border:none;
+        display: flex;
+        align-items: center;
+        margin-bottom: 13px;
+    }
+    .padding_email {
+        padding-right: 13px;
+    }
+    textarea {
+        height: 98px;
+        border-radius: 1px;
+        background: #f0ece3;
+        width: 100%;
+        border: none;
+        padding-left: 13px;
+        padding-top: 4px;
+        &::placeholder {
+            font-weight: bold;
+            font-size: 16px;
+            color:#a39a8a;
+        }
+    }
+    button {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        letter-spacing: 0.2em;
+        color:#FFF;
+        font-size:16px;
+        border-radius:1px;
+        background:#ba1700;
+        text-transform: uppercase;
+        border: 0;
+        height: 50px;
+        &:hover {
+            background:#a39a8a;
+        }
+    }
+    .form-control::placeholder {
+        font-weight: bold;
+        font-size: 16px;
+        color:#a39a8a;
+    }
+}
+
+.info_contato {
+    span {
+        text-align: center;
+        height: 60px;
+        width: 100%;
+        background:#d51a15;
+        color:#FFF;
+        font-weight: 900;
+        letter-spacing: 0.075em;
+        font-size:26px;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        &:first-of-type {
+            height: 76px;
+            background:#a39a8a;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+        &:last-of-type {
+            height: 156px;
+            background:#ba1700;
+            font-weight: normal;
+            font-size:18px;
+            line-height: 24px;
+            letter-spacing: 0;
+        }
+    }
+}
+.map {
+    padding-bottom: 124px;
+    .margin_contato {
+        margin-right: 46px;
+        margin-left:8px;
+    }
+    .botoes_quem {
+        margin-top:24px;
+    }
+}
+.mapa {
+    
+    iframe {
+        border:2px solid #ba1700 !important;
+    }
+}

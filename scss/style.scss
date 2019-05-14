@@ -22,7 +22,7 @@ a, button, i {
 /* Header */
 header {
     padding-top: 27px;
-    padding-bottom: 36px;
+    padding-bottom: 35px;
     background: #f7f6f2;
 }
 .navbar {
@@ -34,6 +34,7 @@ header {
     font-family: $mont;
     font-size: 14px;
     padding: 17px 9px !important;
+    padding-bottom: 9px !important;
     text-transform: uppercase;
     color: #9c927f;
     font-weight: 600;
@@ -53,7 +54,7 @@ header {
     transform: translateX(-50%);
     height: 0;
     border-style: solid;
-    border-width: 0 8px 8px 8px;
+    border-width: 0 7px 7px 7px;
     border-color: transparent transparent #ba1700 transparent;
     }
 }
@@ -144,11 +145,13 @@ a.dropdown-item:before, a.dropdown-item:after {
     padding-top: 3px !important;
     padding-bottom: 4px !important;
     font-size: 11px;
+    padding-left: 7px !important;
     border-bottom: 1px solid #d1cfcc;
 }
 
 .dropdown-menu a:hover {
-    border: none;
+    background:#ba1700;
+    color:#fff;
 }
 
 .dropdown-menu a:last-child {
@@ -158,8 +161,8 @@ a.dropdown-item:before, a.dropdown-item:after {
     border-radius: 0;
     border: 0;
     border-top: 3px solid $vermelho;
-    padding: 4px 7px;
-    top: 53px;
+    padding: 4px 0;
+    top: 45px;
 }
 
 .menu .active a.dropdown-item {
@@ -383,6 +386,9 @@ a.leia {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 0.2em;
+    &:hover {
+        background:#ba1700;
+    }
 }
 
 
@@ -564,6 +570,13 @@ section.encontre {
     padding: 0;
     font-family: "Montserrat", sans-serif;
     margin-right: 12px;
+    &:hover {
+        background: #777777;
+    }
+}
+
+.imprimir:hover .texto_imprimir {
+    color:#FFF;
 }
 .icone_imprimir {
     width: 40px;
@@ -583,7 +596,6 @@ section.encontre {
     padding: 0;
     width: 183px;
     height: 39px;
-    color: #FFF;
     font-weight: normal;
     font-size: 15.4px;
     color: #777777;
@@ -592,10 +604,6 @@ section.encontre {
     align-items: center;
     justify-content: center;
     transition: 0.5s;
-    &:hover {
-        background:#7777 ;
-        color: #FFF;
-    }
 }
 
 /* Botão Download v2 */
@@ -876,6 +884,7 @@ section.encontre {
     z-index: 3;
     right: 0;
     transition: 0.4s;
+    opacity: 1 !important;
 }
 
 button.slick-prev {
@@ -887,6 +896,7 @@ button.slick-prev {
     z-index: 3;
     left: 0;
     transition: 0.4s;
+    opacity: 1 !important;
 }
 
 .slick-next:hover {
@@ -933,3 +943,256 @@ button.slick-prev {
         background-position: -168px -163px;
     }
 }
+
+/* Produtos */
+.cada_produto {
+    margin-bottom: 27px;
+}
+.imagem_produto {
+    border: 1px solid #f7f5f0;
+    overflow: hidden;
+}
+.cada_produto h3 {
+    font-size: 13px;
+    color: #d51a15;
+    letter-spacing: 0.05em;
+    line-height: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0px 31px;
+    background: #f7f5f0;
+    margin-bottom: 0;
+    min-height: 79px;
+    display: flex;
+    align-items: center;
+    transition: 0.6s;
+}
+
+.maisdetalhes {
+width: 165px;
+    height: 22px;
+    background: #931907;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 12px;
+    letter-spacing: 0.05em;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: -12px;
+    &:hover {
+        background: #a39a8a;
+        color: #931907;
+    }
+}
+
+.cada_produto:hover .maisdetalhes {
+        background: #a39a8a;
+        color: #931907;
+}
+
+.cada_produto:hover h3 {
+    background: #931907;
+    color: #FFF;
+}
+
+.face_interna {
+    width: 197px;
+    height: 48px;
+    background-position: -12px -438px;
+}
+
+.trabalhe {
+	width: 197px;
+	height: 48px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #ba1700;
+	color: #FFF;
+	font-size: 12px;
+	letter-spacing: 0.025em;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	&:hover {
+		background: #575555;
+		color: #FFF;
+		text-decoration: none;
+	}
+}
+
+.botoes_quem {
+	margin-top: 41px;
+	align-items: center;
+}
+
+.titulo_page {
+    h1 {
+        font-size:40px;
+        letter-spacing: 0.025em;
+        font-weight: 500;
+        color:#ba1700;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 45px;
+        margin-bottom: 29px;
+        span {
+            font-weight: 900;
+        }
+    }
+    p {
+        font-size: 15px;
+		color: #575555;
+		line-height: 20px;
+		font-weight: 400;
+		font-family: 'Montserrat', sans-serif;
+        margin-bottom: 33px;
+        text-align: justify;
+    }
+}
+
+/* Menu mobile */
+
+/* start menu */
+
+.hamburger {
+    position: absolute;
+    display:none;
+    top: 20px;
+    right: 6px;
+    cursor: pointer;
+    z-index: 99999999;
+    padding: 10px 15px 5px;
+  }
+  .hamburger span {
+  vertical-align: middle;
+  }
+  .hamburger .bars {
+  display: block;
+  position: relative;
+  width: 32px;
+  height: 4px;
+  background: #ba1700;
+  border-radius: 80px;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  }
+  .hamburger .bars:before, .hamburger .bars:after {
+  position: absolute;
+  content: " ";
+  width: 100%;
+  height: 4px;
+  background: #ba1700;
+    border-radius: 80px;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  }
+  .hamburger .bars:before {
+  top: 10px;
+  }
+  .hamburger .bars:after {
+  bottom: 10px;
+  }
+  
+  .open_menu .hamburger .bars {
+  background-color: transparent;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  }
+  .open_menu .hamburger .bars::before {
+  top: 0;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  }
+  .open_menu .hamburger .bars::after {
+  bottom: 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  }
+  
+  .mobile_menu {
+  width: 290px;
+  height: 100%;
+  padding: 75px 20px 0;
+  background: #958b7a;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.18);
+  position: fixed;
+  right: -100%;
+  top: 0;
+  opacity: 0;
+  z-index: 999999;
+  margin-top: 0;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  }
+  .mobile_menu ul li a {
+    color: #ffffff;
+    width: 100%;
+    padding: 13px 20px;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    transition: .5s;
+    display: block;
+    border-radius: 0;
+    letter-spacing: 0.1em;
+    margin-left: 0;
+    border-bottom: 1px solid #fff;
+  }
+  .open_menu .hamburger {
+    top: -13px;
+  }
+  .mobile_menu ul {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  }
+  .mobile_menu li {
+    width: 100%;
+  }
+  .sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  }
+  .mobile_menu a:hover {
+  color: white;
+  }
+  .open_menu .mobile_menu {
+  right: 0;
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  }
+  .mobile_menu:hover {
+  overflow-y: auto;
+  }
+  .mobile_menu .socialTopo {
+    margin: 0;
+    justify-content: flex-end;
+    padding-top: 10px;
+  }

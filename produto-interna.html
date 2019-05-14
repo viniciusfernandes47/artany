@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/produto_interna.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Artany - Produtos Interna - Linha y37</title>
 </head>
 <body>
@@ -26,7 +27,29 @@
                 <div class="logo">
                     <a href="#"><img src="images/assets/logo.png" alt="Artany"></a>
                 </div>
-                <div class="menu_sociais">
+                <nav class="navigation">
+                    <div class="hamburger">
+                        <span class="bars"></span>
+                    </div>
+                    <div class="mobile_menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Quem Somos</a></li>
+                        <li><a href="#">Produtos</a></li>
+                        <li><a href="#">Onde Comprar</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                    <div class="d-flex justify-content-center">
+                        <div class="midias">
+                            <a href="#" class="sprite insta"></a>
+                            <a href="#" class="sprite fb"></a>
+                            <a href="#" class="sprite pint"></a>
+                        </div>
+                    </div>                       
+                    </div>
+                </nav>
+                <div class="menu_sociais d-md-block d-none">
                     <div class="h-100 d-flex">
                         <div class="menu">
                             <nav class="navbar navbar-expand-lg stroke">
@@ -83,21 +106,33 @@
 
     <section class="oproduto">
         <div class="vermelho_produto"></div>
-        <div class="container espacamento_lateral">
-            <div class="row">
+        <div class="container">
+            <div class="row espacamento_lateral">
                 <div class="col-lg-5 slider_produto">
                     <div class="slider-for">
                         <div class="cada_foto">
                             <div class="overlay"></div>
+                            <a href="#" class="sprite ampliar"></a>
                             <img src="images/produto_interna/produto.jpg" alt="">
                         </div>
                         <div class="cada_foto">
+                                <div class="overlay"></div>
                             <img src="images/produto_interna/produto.jpg" alt="">
                         </div>
                         <div class="cada_foto">
+                                <div class="overlay"></div>
                             <img src="images/produto_interna/produto.jpg" alt="">
                         </div>
                         <div class="cada_foto">
+                                <div class="overlay"></div>
+                            <img src="images/produto_interna/produto.jpg" alt="">
+                        </div>
+                        <div class="cada_foto">
+                                <div class="overlay"></div>
+                            <img src="images/produto_interna/produto.jpg" alt="">
+                        </div>
+                        <div class="cada_foto">
+                                <div class="overlay"></div>
                             <img src="images/produto_interna/produto.jpg" alt="">
                         </div>
                     </div>
@@ -114,9 +149,15 @@
                         <div class="cada_mini">
                             <img src="images/produto_interna/produto-mini.jpg" alt="">
                         </div>
+                        <div class="cada_mini">
+                            <img src="images/produto_interna/produto-mini.jpg" alt="">
+                        </div>
+                        <div class="cada_mini">
+                            <img src="images/produto_interna/produto-mini.jpg" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-7 titulo_descricao">
+                <div class="col-lg-6 titulo_descricao">
                     <div class="d-flex breadcrumbv2">
                         <a href="#">Produtos</a> <span>></span> <a href="#">Linha Y-37</a> <span>></span> <a href="#">Balcões</a>
                     </div>
@@ -167,27 +208,51 @@
                     </div>
                 </div>
             </div>
+            <div class="outras_info">
+                <h2>Outras Informações</h2>
+                <div class="informacoes espacamento_lateral">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                            </p> <p>
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                    </p> <p>
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                    </p>
+                </div>   
+            </div>
         </div>
     </section>
 
-        <section class="todas_linhas">
+    <section class="veja_produtos">
         <div class="container espacamento_lateral">
-            <h2>Conheça todas nossas linhas de móveis</h2>
-            <div class="d-flex">
-                <div class="caixa_linhas">
-                    <h3>Linha <span>Mobile</span></h3>
+            <h2>veja mais <span>Produtos</span></h2>
+            <div class="row espacamento_lateral">
+                <div class="col-lg-3 col-6 cada_produto">
+                    <div class="imagem_produto">
+                        <img src="images/produto/balcao.jpg" alt="">
+                    </div>
+                    <h3>Balcão estante 1600 - Y37</h3>
+                    <a href="#" class="maisdetalhes">+ detalhes</a>
                 </div>
-                <div class="caixa_linhas">
-                    <h3>Linha <span>Lev</span></h3>
+                <div class="col-lg-3 col-6 cada_produto">
+                    <div class="imagem_produto">
+                        <img src="images/produto/balcao.jpg" alt="">
+                    </div>
+                    <h3>Balcão estante diretoria com gavetas 1800 - Y37</h3>
+                    <a href="#" class="maisdetalhes">+ detalhes</a>
                 </div>
-                <div class="caixa_linhas">
-                    <h3>Linha <span>Executiva</span></h3>
+                <div class="col-lg-3 d-md-block d-none cada_produto">
+                    <div class="imagem_produto">
+                        <img src="images/produto/balcao.jpg" alt="">
+                    </div>
+                    <h3>Balcão estante 1600 - Y37</h3>
+                    <a href="#" class="maisdetalhes">+ detalhes</a>
                 </div>
-                <div class="caixa_linhas">
-                    <img src="images/produto/logoy_small.png" alt="">
-                </div>
-                <div class="caixa_linhas">
-                    <h3>Linha <span>Toque</span></h3>
+                <div class="col-lg-3 d-none cada_produto">
+                    <div class="imagem_produto">
+                        <img src="images/produto/balcao.jpg" alt="">
+                    </div>
+                    <h3>Balcão estante diretoria com gavetas 1800 - Y37</h3>
+                    <a href="#" class="maisdetalhes">+ detalhes</a>
                 </div>
             </div>
         </div>
@@ -260,7 +325,12 @@
             </div>
     
         </footer>
-    
+        <a href="#" class="link_voltar">
+        <div class="voltar_para" style="background-image:url(images/produto_interna/voltar.jpg)">
+            <span class="volta">Voltar para</span>
+            <span class="linha_atual">Linha Y-37</span>
+        </div>
+        </a>
     <!-- Scripts footer --> 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

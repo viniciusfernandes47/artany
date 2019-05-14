@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Artany</title>
 </head>
 <body>
@@ -25,7 +26,31 @@
                 <div class="logo">
                     <a href="#"><img src="images/assets/logo.png" alt="Artany"></a>
                 </div>
-                <div class="menu_sociais">
+
+                <nav class="navigation">
+                    <div class="hamburger">
+                        <span class="bars"></span>
+                    </div>
+                    <div class="mobile_menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Quem Somos</a></li>
+                        <li><a href="#">Produtos</a></li>
+                        <li><a href="#">Onde Comprar</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                    <div class="d-flex justify-content-center">
+                        <div class="midias">
+                            <a href="#" class="sprite insta"></a>
+                            <a href="#" class="sprite fb"></a>
+                            <a href="#" class="sprite pint"></a>
+                        </div>
+                    </div>                       
+                    </div>
+                </nav>
+
+                <div class="menu_sociais d-md-block d-none">
                     <div class="h-100 d-flex">
                         <div class="menu">
                             <nav class="navbar navbar-expand-lg stroke">
@@ -89,7 +114,11 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block" src="images/home/banner01.jpg" alt="First slide">
+                <picture>
+                    <source media="(max-width: 460px)" srcset="images/home/banner01-mobile.jpg">
+                    <source media="(min-width: 768px) and (max-width: 1024px)" srcset="images/slide01-ipad.jpg">
+                    <img src="images/home/banner01.jpg" alt="">
+                </picture>
                 <div class="container">
                     <div class="legenda">
                         <div class="borda">
@@ -112,16 +141,16 @@
     </div>
     <section class="linhas">
         <div class="container espacamento_lateral">
-            <div class="row">
-                <div class="col-lg-4 p-0 cada_linha">
+            <div class="row mobile_linha">
+                <div class="p-0 cada_linha">
                     <img src="images/home/executiva.jpg" alt="">
                     <h3>Linha <br><span>Executiva</span></h3>
                 </div>
-                <div class="col-lg-4 p-0 cada_linha">
+                <div class="p-0 cada_linha">
                     <img src="images/home/y3.jpg" alt="">
                     <h3><img src="images/home/y37.png" alt=""></h3>
                 </div>
-                <div class="col-lg-4 p-0 cada_linha">
+                <div class="p-0 cada_linha">
                     <img src="images/home/executiva.jpg" alt="">
                     <h3>Linha <br><span>Home Office</span></h3>
                 </div>
@@ -134,13 +163,13 @@
             <div class="row">
                 <div class="col-lg-8 lista_blog">
                     <div class="row">
-                        <div class="col-lg-6 cada_blog pl-0">
+                        <div class="col-lg-6 cada_blog pl-md-0 px-4 mb-md-0 mb-4">
                             <img src="images/home/blog01.jpg" alt="">
                             <h2>Titulo do Post Blog 01 com duas linhas</h2>
                             <p>Sometimes the simplest things are the hardest to find. So we created a new lineSometimes the simplest things are the hardest to find. So we created a new line</p>
                             <a href="#" class="leia">Leia +</a>
                         </div>
-                        <div class="col-lg-6 cada_blog pl-1">
+                        <div class="col-lg-6 cada_blog pl-md-1 px-4 mb-md-0 mb-4">
                             <img src="images/home/blog02.jpg" alt="">
                             <h2>Tamburato</h2>
                             <p>Sometimes the simplest things are the hardest to find. So we created a new lineSometimes the simplest things are the hardest to find. So we created a new line</p>

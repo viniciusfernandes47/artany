@@ -1,0 +1,146 @@
+.blog_interna {
+    .botoes_post {
+        padding-top: 8px;
+        border: none;
+    }
+    .prev_page {
+        width: 18px;
+        height: 22px;
+        background-position: -241px -280px;
+        margin-right: 15px;
+    }
+    .next_page {
+        width: 18px;
+        height: 22px;
+        background-position: -259px -280px;
+        margin-left: 15px;
+    }
+    .navegacao {
+        margin-top:30px;
+        padding-bottom: 38px;
+        border-bottom: 1px solid #dedede;
+
+        span {
+            font-size:14px;
+            font-weight: bold;
+            color:#901313;
+            text-transform: uppercase;
+        }
+    }
+    .posts_recentes {
+        margin-top:30px;
+    }
+    h5 {
+        font-size:20px;
+        text-transform: uppercase;
+        color:#4b4e53;
+        font-weight: bold;
+        margin-bottom: 33px;
+    }
+    .posts_recentes h3 {
+        font-size: 16px;
+        color:#4b4e53;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 20px;
+        margin-top:15px;
+        margin-bottom: -2px;
+    }
+    .data {
+        color:#4b4e53;
+        font-size:13px;
+        text-transform: uppercase;
+    }
+    .comentarios {
+        margin-top:30px;
+        .titulo span:first-of-type {
+            font-size: 14px;
+            font-weight: bold;
+            color:#4b4e53;
+            margin-right: 41px;
+        }
+        .titulo span {
+            font-size: 14px;
+            font-weight: 400;
+            color:#8f9092;
+            text-transform: uppercase;
+        }
+        p {
+            color:#7e8082;
+            font-size: 14px;
+            line-height: 21px;
+            font-weight: 400;
+        }
+        .texto_comentario {
+            padding: 26px 30px;
+            background:#f7f7f7;
+            border-radius: 2px;
+            margin-left:35px;
+            position:relative;
+            &:after {
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 7.5px 15px 7.5px 0;
+                border-color: transparent #f7f7f7 transparent transparent;
+                content: '';
+                position: absolute;
+                top: 28px;
+                left: -13px;
+            }
+        }
+    }
+    .comentar {
+        margin-top: 33px;
+        input {
+            height:50px;
+            display: flex;
+            width: 100%;
+            background:#f0ece3;
+            border: 0;
+            align-items: center;
+            padding-left: 17px;
+            margin-bottom:13px;
+            &::placeholder {
+                font-size: 16px;
+                color:#a39a8a;
+                font-weight: bold;
+            }
+        }
+        textarea {
+            height:98px;
+            display: flex;
+            width: 100%;
+            background:#f0ece3;
+            border: 0;
+            align-items: center;
+            padding-left: 17px;
+            margin-bottom:13px;
+            &::placeholder {
+                font-size: 16px;
+                color:#a39a8a;
+                font-weight: bold;
+            }
+        }
+        button {
+            border: 0;
+            height: 50px;
+            width: 100%;
+            background:#d51a15;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size:16px;
+            color:#FFF;
+            &:hover {
+                background:#a39a8a;
+            }
+        }
+    }
+}
+
+.lista_blog_interna {
+    padding-bottom: 138px;
+}
