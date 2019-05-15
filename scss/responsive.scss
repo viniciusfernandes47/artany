@@ -1,3 +1,109 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    .collapse:not(.show) {
+        display: flex !important;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar {
+        padding-left: 10px;
+    }
+    .logo img {
+        width: 165px;
+    }
+    .midias {
+        display: none;
+    }
+    .menu a {
+        font-size: 13px;
+        padding: 17px 5px !important;
+    }
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+        top: 51px;
+    }
+    .facebook {
+        margin-top: 36px;
+        display: flex;
+    }
+    .footer_content {
+        display: flex;
+        justify-content: center;
+    }
+    .fundo_selos {
+        top: auto;
+        bottom: 0;
+        height: 44%;
+        width: 100%;
+    }
+    .selos {
+        justify-content: center;
+        display: flex;
+        padding-top: 58px;
+    }
+    .titulo_quem h1 {
+        display: inline-block;
+        font-size: 55px;
+    }
+    .cada_missao p {
+        padding: 0 0;
+    }
+    .natureza h2 {
+        padding-left: 0;
+        margin-left: -21px;
+    }
+    .caixa_encontre h2 {
+        width: 38%;
+    }
+    .encontre_search {
+        width: 62% !important;
+    }
+    .todas_linhas .espacamento_lateral {
+        padding: 00;
+        margin: 0 auto;
+    }
+    .padding_titulo {
+        padding-left: 10px;
+        padding-right: 9px;
+    }
+    .produtos .espacamento_lateral {
+        padding: 0;
+    }
+    .sidebar a {
+        padding-left: 10px;
+    }
+    .texto_imprimir {
+        width: 130px;
+    }
+    .texto_downloadv2 {
+        width: 140px;
+    }
+    .abrir_download {
+        left: -42px;
+    }
+    .outras_info h2:after {
+        width: 64%;
+    }
+    .oproduto img {
+        width: 100%;
+    }
+    .lojas_slider img {
+        width: 80% !important;
+    }
+    .todas_lojas img {
+        width: 100%;
+    }
+    .titulo_page h1 {
+        font-size: 36px;
+    }
+    .map .botoes_quem {
+        margin-top: 24px;
+        justify-content: center;
+    }
+}
 @media (max-width: 480px) 
 {
     .hamburger {
@@ -75,18 +181,18 @@
     button.slick-next {
         background: url(../images/assets/sprites.png);
         background-repeat: no-repeat;
-        background-position: -273px -50px !important;
-        width: 40px;
-        height: 41px;
+        background-position: -278px -50px !important;
+        width: 42px;
+        height: 42px;
         z-index: 3;
         right: -17px;
-        background-size: 411px;
+        background-size: 350px;
         transition: 0.4s;
         &:hover {
-            background-position: -273px -50px !important;
-            background-size: 411px;
-            width: 40px;
-            height: 41px;
+            background-position: -278px -50px !important;
+            background-size: 350px;
+            width: 42px;
+            height: 42px;
         }
     }
     .mobile_linha .slick-list {
@@ -95,19 +201,19 @@
     button.slick-prev {
         background: url(../images/assets/sprites.png);
         background-repeat: no-repeat;
-        background-position: -273px -4px !important;
-        background-size: 411px;
-        width: 40px;
-        height: 41px;
+        background-position: -277px -4px !important;
+        background-size: 350px;
+        width: 42px;
+        height: 42px;
         z-index: 3;
         left: -17px;
         transition: 0.4s;
         opacity: 1 !important;
         &:hover {
-            background-position: -273px -4px !important;
-            background-size: 411px;
-            width: 40px;
-            height: 41px;
+            background-position: -277px -4px !important;
+            background-size: 350px;
+            width: 42px;
+            height: 42px;
         }
     }
     .carousel-control-next, .carousel-control-prev {
@@ -484,4 +590,31 @@
     .texto_comentario .titulo {
         align-items: center;
     }
+    .mobile_linha button.slick-prev {
+        background-position: -329px -10px !important;
+    }
+    .mobile_linha button.slick-prev {
+        background-position: -329px -10px !important;
+    }
+    .mobile_linha button.slick-next {
+        background-position: -330px -64px !important;
+    }
+    .carousel-control-prev-icon {
+        background: url(../images/assets/sprites.png) no-repeat;
+        background-position: -229px -6px;
+        background-size: 350px;
+        width: 42px;
+        height: 40px;
+    }
+    .carousel-control-next-icon {
+        background: url(../images/assets/sprites.png) no-repeat;
+        background-position: -229px -50px;
+        width: 42px;
+        background-size: 350px;
+        height: 40px;
+    }
+    .caracteristicas .container.px-0 {
+        overflow-x: hidden;
+    }
+    
 }

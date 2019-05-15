@@ -328,6 +328,7 @@ section.linhas {
 .cada_linha {
     background: $vermelho;
     position: relative;
+    transition: 0.6s;
     img {
         mix-blend-mode: multiply;
         width: 100%;
@@ -349,6 +350,9 @@ section.linhas {
             font-weight: 800;
             display: block;
         }
+    }
+    &:hover {
+        background: #841303;
     }
 }
 .blog {
@@ -1196,3 +1200,7 @@ width: 165px;
     justify-content: flex-end;
     padding-top: 10px;
   }
+
+  .imagem_post img {
+    max-width: 100%;
+}

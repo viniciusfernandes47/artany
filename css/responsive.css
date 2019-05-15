@@ -1,1 +1,147 @@
-@media (max-width: 480px){.hamburger{display:block}.logo_tel{border-right:none;padding-right:0}.footer_content{display:flex;flex-wrap:wrap;justify-content:center}.localizacao{padding-left:0;justify-content:center;text-align:center;padding-top:14px}.fundo_selos{position:absolute;top:231px;height:140px;background:#a39a8a;width:100%;right:0;z-index:1}.selos{padding-left:0;padding-top:40px}.footer_top{padding-bottom:22px}a.sprite.face_footer{display:none}.red{width:72px}.direitos{padding-right:31px}.legenda{position:absolute;top:25%;padding-left:48px;z-index:4;padding-right:64px}.legenda img{width:100%}.borda::after{content:'';position:absolute;width:447px;border:8px solid #fff;top:-48px;height:172px;left:-120px}.carousel-indicators{bottom:17%}.legenda h3{font-size:24px;text-align:center}button.slick-next{background:url(../images/assets/sprites.png);background-repeat:no-repeat;background-position:-273px -50px !important;width:40px;height:41px;z-index:3;right:-17px;background-size:411px;transition:0.4s}button.slick-next:hover{background-position:-273px -50px !important;background-size:411px;width:40px;height:41px}.mobile_linha .slick-list{margin:0 29px}button.slick-prev{background:url(../images/assets/sprites.png);background-repeat:no-repeat;background-position:-273px -4px !important;background-size:411px;width:40px;height:41px;z-index:3;left:-17px;transition:0.4s;opacity:1 !important}button.slick-prev:hover{background-position:-273px -4px !important;background-size:411px;width:40px;height:41px}.carousel-control-next,.carousel-control-prev{height:91%}.principal{width:251px;height:58px}.titulo_quem{overflow:hidden;height:370px}.titulo_quem h1{font-size:54px}.paragrafo{padding-right:0}.face_interna{width:254px;height:41px;background-position:-100px -71px}.trabalhe{width:200px;height:41px;font-size:12px;letter-spacing:0}.texto_quem h2{color:#ba1700;font-size:23px;font-weight:700;line-height:28px;letter-spacing:0.025em;text-transform:uppercase;margin-top:21px;margin-bottom:34px;font-family:'Montserrat', sans-serif}.cada_missao .titulo_missao{margin-bottom:11px}.cada_missao{margin-bottom:22px}.natureza .imagem_natureza{width:100%;height:29%}.natureza h2{padding-top:69px}.natureza img{width:169px}.natureza .madeira{top:-161px}.natureza .paragrafo_natureza{padding-left:19px;padding-top:176px;padding-bottom:33px;position:relative;z-index:10}.todas_linhas h2{line-height:29px}.todas_linhas .d-flex{flex-wrap:wrap;justify-content:center}.todas_linhas .espacamento_lateral{padding:0 17px}.todas_linhas .caixa_linhas{width:168px;margin-bottom:19px}.todas_linhas .caixa_linhas:nth-of-type(even){border:none}.todas_linhas{padding-bottom:77px}.caixa_encontre h2{font-size:24px;font-weight:600;line-height:28px;height:78px;display:flex;color:#FFF;width:100%;align-items:center}.caixa_encontre{flex-wrap:wrap;justify-content:center;align-items:center;padding-left:0;text-align:center;height:197px}.caixa_encontre .encontre_search{padding-left:9px;background:#ba1700;width:100%;padding-right:9px;height:115px;align-items:center}.cidade_select .custom-select2-trigger{width:153px}.imagem_direita{width:0}.padding_titulo{flex-wrap:wrap;padding:0px;padding-bottom:100px;padding-top:41px;justify-content:center}.padding_titulo img{padding-right:0;border-right:0;width:208px}.padding_titulo h2{color:#FFF;font-family:'Montserrat', sans-serif;font-size:23px;font-weight:normal;line-height:27px;letter-spacing:0.025em;padding-left:2px;margin-top:23px;text-align:center;margin-bottom:0;text-transform:uppercase}.titulo_pagina{background-size:cover}.onde_comprar{position:absolute;width:224px;height:39px;background:transparent;color:#FFF;border:1px solid #FFF;font-size:21px;letter-spacing:0.025em;text-transform:uppercase;text-align:center;bottom:11px;right:13px;font-family:'Montserrat', sans-serif;z-index:20;display:flex;align-items:center;justify-content:center}.slider_produto .carousel-indicators{bottom:2%;display:none}.cada_detalhe{margin-bottom:35px}.lista_detalhes{margin-top:30px}.fundo_vermelho{width:100%;height:50%;position:absolute;background:#ba1700;bottom:0;right:0;z-index:1;top:auto}.caracteristicas h2{padding-top:65px}.produtos h1{color:#ba1700;font-size:36px;line-height:43px;letter-spacing:0.025em;font-family:'Montserrat', sans-serif;text-transform:uppercase;padding-top:46px;padding-bottom:35px}.cada_produto h3{font-size:12px;line-height:12px;padding:0px 6px;min-height:91px}.cada_produto{padding-right:0px}.maisdetalhes{width:138px}.imagem_produto img{width:100%}.sidebar{display:none}.slider_produto{padding:0;padding-top:36px;-ms-flex:0 0 41.666667%;flex:0 0 100%;max-width:100%}.slider_produto img{max-width:100%}.titulo_descricao .breadcrumbv2 a,.breadcrumbv2 span,.titulo_descricao h1{color:#ba1700 !important}.titulo_descricao .breadcrumbv2 span{padding:0 5px;padding-top:9px}.titulo_descricao .breadcrumbv2{padding-top:19px}.texto_imprimir{width:100px;font-size:14px}.outras_info h2:after{width:27.8%}.texto_downloadv2{width:115px;font-size:14px}.abrir_download{left:-56px}.slider_produto,.titulo_descricao{padding-left:0px}.veja_produtos h2{font-size:36px;line-height:43px;padding-top:0;padding-bottom:1px}.veja_produtos .espacamento_lateral{padding:0 16px}.onde_title h1{padding-left:25px}.lojas{padding:0 26px}.todas_lojas{background:#f7f5f0;margin-top:58px}.lojas_slider img{width:100% !important}.fundo_branco{width:0}.texto_lojas img{padding-left:20px}.titulo_page h1{font-size:31px}.encontre_representante .espacamento_lateral{padding:0 17px}.select_representante .cidade{width:31.87%;margin-right:7px}.select_representante .bairro{width:31.88%;margin-right:0px}.select_representante .estado{width:26.88%;margin-right:7px}.select_representante{flex-wrap:wrap}.select_representante .ver_listagem{width:165px;margin-right:3px}.select_representante .ver_mapa{width:170px}.select_representante button{font-size:15px;letter-spacing:0.1em}.select_representante .ver_mapa{width:142px;height:34px;margin-top:11px}.select_representante .ver_listagem{width:139px;margin-right:3px;margin-top:11px}.map .margin_contato{margin-right:0px;margin-left:-1px}.imagem_post img{max-width:100%}section.lista_blog{padding-left:13px;padding-bottom:120px}.blog_title{padding-left:13px}.lista_blog h3{font-size:23px}.lista_blog .botoes_post .social_post a{margin-right:1px}.posts_recentes img{width:100%}.blog_interna .comentarios .texto_comentario{padding:26px 16px;margin-left:16px}.blog_interna .comentarios .titulo span{font-size:11px}.texto_comentario .titulo{align-items:center}}
+@media (min-width: 768px) and (max-width: 1024px) { .collapse:not(.show) { display: flex !important; }
+  .navbar-toggler { display: none; }
+  .navbar-nav { flex-direction: row; }
+  .navbar { padding-left: 10px; }
+  .logo img { width: 165px; }
+  .midias { display: none; }
+  .menu a { font-size: 13px; padding: 17px 5px !important; }
+  .navbar-nav .dropdown-menu { position: absolute; top: 51px; }
+  .facebook { margin-top: 36px; display: flex; }
+  .footer_content { display: flex; justify-content: center; }
+  .fundo_selos { top: auto; bottom: 0; height: 44%; width: 100%; }
+  .selos { justify-content: center; display: flex; padding-top: 58px; }
+  .titulo_quem h1 { display: inline-block; font-size: 55px; }
+  .cada_missao p { padding: 0 0; }
+  .natureza h2 { padding-left: 0; margin-left: -21px; }
+  .caixa_encontre h2 { width: 38%; }
+  .encontre_search { width: 62% !important; }
+  .todas_linhas .espacamento_lateral { padding: 00; margin: 0 auto; }
+  .padding_titulo { padding-left: 10px; padding-right: 9px; }
+  .produtos .espacamento_lateral { padding: 0; }
+  .sidebar a { padding-left: 10px; }
+  .texto_imprimir { width: 130px; }
+  .texto_downloadv2 { width: 140px; }
+  .abrir_download { left: -42px; }
+  .outras_info h2:after { width: 64%; }
+  .oproduto img { width: 100%; }
+  .lojas_slider img { width: 80% !important; }
+  .todas_lojas img { width: 100%; }
+  .titulo_page h1 { font-size: 36px; }
+  .map .botoes_quem { margin-top: 24px; justify-content: center; } }
+
+@media (max-width: 480px) { .hamburger { display: block; }
+  /*footer*/
+  .logo_tel { border-right: none; padding-right: 0; }
+  .footer_content { display: flex; flex-wrap: wrap; justify-content: center; }
+  .localizacao { padding-left: 0; justify-content: center; text-align: center; padding-top: 14px; }
+  .fundo_selos { position: absolute; top: 231px; height: 140px; background: #a39a8a; width: 100%; right: 0; z-index: 1; }
+  .selos { padding-left: 0; padding-top: 40px; }
+  .footer_top { padding-bottom: 22px; }
+  a.sprite.face_footer { display: none; }
+  .red { width: 72px; }
+  .direitos { padding-right: 31px; }
+  /*Banner */
+  .legenda { position: absolute; top: 25%; padding-left: 48px; z-index: 4; padding-right: 64px; }
+  .legenda img { width: 100%; }
+  .borda::after { content: ''; position: absolute; width: 447px; border: 8px solid #fff; top: -48px; height: 172px; left: -120px; }
+  .carousel-indicators { bottom: 17%; }
+  .legenda h3 { font-size: 24px; text-align: center; }
+  button.slick-next { background: url(../images/assets/sprites.png); background-repeat: no-repeat; background-position: -278px -50px !important; width: 42px; height: 42px; z-index: 3; right: -17px; background-size: 350px; transition: 0.4s; }
+  button.slick-next:hover { background-position: -278px -50px !important; background-size: 350px; width: 42px; height: 42px; }
+  .mobile_linha .slick-list { margin: 0 29px; }
+  button.slick-prev { background: url(../images/assets/sprites.png); background-repeat: no-repeat; background-position: -277px -4px !important; background-size: 350px; width: 42px; height: 42px; z-index: 3; left: -17px; transition: 0.4s; opacity: 1 !important; }
+  button.slick-prev:hover { background-position: -277px -4px !important; background-size: 350px; width: 42px; height: 42px; }
+  .carousel-control-next, .carousel-control-prev { height: 91%; }
+  .principal { width: 251px; height: 58px; }
+  /* quem somos */
+  .titulo_quem { overflow: hidden; height: 370px; }
+  .titulo_quem h1 { font-size: 54px; }
+  .paragrafo { padding-right: 0; }
+  .face_interna { width: 254px; height: 41px; background-position: -100px -71px; }
+  .trabalhe { width: 200px; height: 41px; font-size: 12px; letter-spacing: 0; }
+  .texto_quem h2 { color: #ba1700; font-size: 23px; font-weight: 700; line-height: 28px; letter-spacing: 0.025em; text-transform: uppercase; margin-top: 21px; margin-bottom: 34px; font-family: 'Montserrat', sans-serif; }
+  .cada_missao .titulo_missao { margin-bottom: 11px; }
+  .cada_missao { margin-bottom: 22px; }
+  .natureza .imagem_natureza { width: 100%; height: 29%; }
+  .natureza h2 { padding-top: 69px; }
+  .natureza img { width: 169px; }
+  .natureza .madeira { top: -161px; }
+  .natureza .paragrafo_natureza { padding-left: 19px; padding-top: 176px; padding-bottom: 33px; position: relative; z-index: 10; }
+  .todas_linhas h2 { line-height: 29px; }
+  .todas_linhas .d-flex { flex-wrap: wrap; justify-content: center; }
+  .todas_linhas .espacamento_lateral { padding: 0 17px; }
+  .todas_linhas .caixa_linhas { width: 168px; margin-bottom: 19px; }
+  .todas_linhas .caixa_linhas:nth-of-type(even) { border: none; }
+  .todas_linhas { padding-bottom: 77px; }
+  .caixa_encontre h2 { font-size: 24px; font-weight: 600; line-height: 28px; height: 78px; display: flex; color: #FFF; width: 100%; align-items: center; }
+  .caixa_encontre { flex-wrap: wrap; justify-content: center; align-items: center; padding-left: 0; text-align: center; height: 197px; }
+  .caixa_encontre .encontre_search { padding-left: 9px; background: #ba1700; width: 100%; padding-right: 9px; height: 115px; align-items: center; }
+  .cidade_select .custom-select2-trigger { width: 153px; }
+  .imagem_direita { width: 0; }
+  /* produtos */
+  .padding_titulo { flex-wrap: wrap; padding: 0px; padding-bottom: 100px; padding-top: 41px; justify-content: center; }
+  .padding_titulo img { padding-right: 0; border-right: 0; width: 208px; }
+  .padding_titulo h2 { color: #FFF; font-family: 'Montserrat', sans-serif; font-size: 23px; font-weight: normal; line-height: 27px; letter-spacing: 0.025em; padding-left: 2px; margin-top: 23px; text-align: center; margin-bottom: 0; text-transform: uppercase; }
+  .titulo_pagina { background-size: cover; }
+  .onde_comprar { position: absolute; width: 224px; height: 39px; background: transparent; color: #FFF; border: 1px solid #FFF; font-size: 21px; letter-spacing: 0.025em; text-transform: uppercase; text-align: center; bottom: 11px; right: 13px; font-family: 'Montserrat', sans-serif; z-index: 20; display: flex; align-items: center; justify-content: center; }
+  .slider_produto .carousel-indicators { bottom: 2%; display: none; }
+  .cada_detalhe { margin-bottom: 35px; }
+  .lista_detalhes { margin-top: 30px; }
+  .fundo_vermelho { width: 100%; height: 50%; position: absolute; background: #ba1700; bottom: 0; right: 0; z-index: 1; top: auto; }
+  .caracteristicas h2 { padding-top: 65px; }
+  .produtos h1 { color: #ba1700; font-size: 36px; line-height: 43px; letter-spacing: 0.025em; font-family: 'Montserrat', sans-serif; text-transform: uppercase; padding-top: 46px; padding-bottom: 35px; }
+  .cada_produto h3 { font-size: 12px; line-height: 12px; padding: 0px 6px; min-height: 91px; }
+  .cada_produto { padding-right: 0px; }
+  .maisdetalhes { width: 138px; }
+  .imagem_produto img { width: 100%; }
+  .sidebar { display: none; }
+  /*produtos interna */
+  .slider_produto { padding: 0; padding-top: 36px; -ms-flex: 0 0 41.666667%; flex: 0 0 100%; max-width: 100%; }
+  .slider_produto img { max-width: 100%; }
+  .titulo_descricao .breadcrumbv2 a, .breadcrumbv2 span, .titulo_descricao h1 { color: #ba1700 !important; }
+  .titulo_descricao .breadcrumbv2 span { padding: 0 5px; padding-top: 9px; }
+  .titulo_descricao .breadcrumbv2 { padding-top: 19px; }
+  .texto_imprimir { width: 100px; font-size: 14px; }
+  .outras_info h2:after { width: 27.8%; }
+  .texto_downloadv2 { width: 115px; font-size: 14px; }
+  .abrir_download { left: -56px; }
+  .slider_produto, .titulo_descricao { padding-left: 0px; }
+  .veja_produtos h2 { font-size: 36px; line-height: 43px; padding-top: 0; padding-bottom: 1px; }
+  .veja_produtos .espacamento_lateral { padding: 0 16px; }
+  /* onde comprar */
+  .onde_title h1 { padding-left: 25px; }
+  .lojas { padding: 0 26px; }
+  .todas_lojas { background: #f7f5f0; margin-top: 58px; }
+  .lojas_slider img { width: 100% !important; }
+  .fundo_branco { width: 0; }
+  .texto_lojas img { padding-left: 20px; }
+  /* Representantes e Lojas */
+  .titulo_page h1 { font-size: 31px; }
+  .encontre_representante .espacamento_lateral { padding: 0 17px; }
+  .select_representante .cidade { width: 31.87%; margin-right: 7px; }
+  .select_representante .bairro { width: 31.88%; margin-right: 0px; }
+  .select_representante .estado { width: 26.88%; margin-right: 7px; }
+  .select_representante { flex-wrap: wrap; }
+  .select_representante .ver_listagem { width: 165px; margin-right: 3px; }
+  .select_representante .ver_mapa { width: 170px; }
+  .select_representante button { font-size: 15px; letter-spacing: 0.1em; }
+  .select_representante .ver_mapa { width: 142px; height: 34px; margin-top: 11px; }
+  .select_representante .ver_listagem { width: 139px; margin-right: 3px; margin-top: 11px; }
+  /*contato */
+  .map .margin_contato { margin-right: 0px; margin-left: -1px; }
+  /* Blog */
+  .imagem_post img { max-width: 100%; }
+  section.lista_blog { padding-left: 13px; padding-bottom: 120px; }
+  .blog_title { padding-left: 13px; }
+  .lista_blog h3 { font-size: 23px; }
+  .lista_blog .botoes_post .social_post a { margin-right: 1px; }
+  .posts_recentes img { width: 100%; }
+  .blog_interna .comentarios .texto_comentario { padding: 26px 16px; margin-left: 16px; }
+  .blog_interna .comentarios .titulo span { font-size: 11px; }
+  .texto_comentario .titulo { align-items: center; }
+  .mobile_linha button.slick-prev { background-position: -329px -10px !important; }
+  .mobile_linha button.slick-prev { background-position: -329px -10px !important; }
+  .mobile_linha button.slick-next { background-position: -330px -64px !important; }
+  .carousel-control-prev-icon { background: url(../images/assets/sprites.png) no-repeat; background-position: -229px -6px; background-size: 350px; width: 42px; height: 40px; }
+  .carousel-control-next-icon { background: url(../images/assets/sprites.png) no-repeat; background-position: -229px -50px; width: 42px; background-size: 350px; height: 40px; }
+  .caracteristicas .container.px-0 { overflow-x: hidden; } }

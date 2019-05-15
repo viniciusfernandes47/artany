@@ -1,1 +1,85 @@
-.blog_title{height:168px;background:#ba1700;display:flex;align-items:center}.blog_title h1{font-size:30px;font-weight:600;color:#FFF;display:flex;align-items:center;text-transform:uppercase;font-family:'Montserrat', sans-serif}.lista_blog{padding-top:71px}.lista_blog h3{font-weight:600;color:#ba1700;line-height:25px;font-size:24px;margin-bottom:2px;font-family:'Montserrat', sans-serif}.lista_blog .data{text-transform:uppercase;color:#a3a5a8;font-size:14px;font-weight:400;font-family:'Montserrat', sans-serif}.lista_blog .imagem_post{padding-top:13px}.lista_blog p{font-size:15px;color:#7e8082;line-height:20px;letter-spacing:-0.025em;margin-bottom:20px;margin-top:12px;font-family:'Montserrat', sans-serif}.lista_blog .botoes_post{padding-top:11px;border-top:1px solid #dedede;align-items:center}.lista_blog .botoes_post .leia_mais{width:171px;height:40px;display:flex;align-items:center;justify-content:center;color:#FFF;background:#ba1700;font-size:14px;color:#FFF;font-weight:600;font-family:'Montserrat', sans-serif;text-transform:uppercase}.lista_blog .botoes_post .leia_mais:hover{background:#a39a8a}.lista_blog .botoes_post .bface{background-position:-222px -440px}.lista_blog .botoes_post .btw{background-position:-272px -440px}.lista_blog .botoes_post .bgoo{background-position:-322px -440px}.lista_blog .botoes_post .bwhats{background-position:-372px -440px}.lista_blog .botoes_post .social_post a{width:41px;height:40px;margin-right:13px}.lista_blog .botoes_post .social_post a:last-child{margin-right:0}.lista_blog .botoes_post .social_post a:hover{filter:grayscale(100%)}.cada_post{padding-bottom:37px}.sidebar{padding-left:40px}.sidebar .buscar{position:relative}.sidebar .buscar input{height:35px;background:#f1ede4;border:none;width:100%;display:flex;align-items:center;font-family:'Montserrat', sans-serif;padding-left:8px}.sidebar .buscar input::placeholder{font-size:14px;text-transform:uppercase;color:#9c927f}.sidebar .buscar .lupa{position:absolute;top:7px;right:9px;width:21px;height:20px;background-position:-239px -255px;border:0;padding:0}.sidebar h4{text-transform:uppercase;font-size:18px;color:#4b4e53;font-weight:600;border-bottom:1px solid #f2eee6;padding-bottom:7px;margin-bottom:20px;font-family:'Montserrat', sans-serif}.sidebar ul{list-style:none;padding:0}.sidebar ul a{height:30px;margin-bottom:8px;padding-left:9px;font-size:14px;color:#4b4e53;font-weight:normal;width:100%;font-family:'Montserrat', sans-serif;display:flex;align-items:center}.sidebar ul a:hover{background:#f1ede4;color:#ba1700}.sidebar .categorias{padding-top:53px}.sidebar .posts_recentes{padding-top:33px}.sidebar .recente{padding-left:9px;align-items:center;padding-top:20px;padding-bottom:20px;font-family:'Montserrat', sans-serif}.sidebar .info_recente{padding-left:9px}.sidebar .info_recente h5{font-size:14px;letter-spacing:-0.05em;color:#4b4e53;margin-top:0;margin-bottom:-2px;font-weight:600;text-transform:uppercase;font-family:'Montserrat', sans-serif}.sidebar .info_recente span{color:#4b4e53;font-size:12px;letter-spacing:-0.025em}.sidebar .tags{padding-bottom:33px;padding-top:33px}.sidebar .tags a{height:32px;border:1px solid #dfdfdf;font-size:12px;letter-spacing:-0.025em;text-transform:uppercase;align-items:center;color:#7e8082;padding:0 14px;display:flex;font-family:'Montserrat', sans-serif;margin:5px}.sidebar .tags a:hover{background:#f1ede4;color:#ba1700}.sidebar .posts_recentes a{text-decoration:none;font-family:'Montserrat', sans-serif}.posts_recentes a:hover>.recente{background:#f1ede4}.posts_recentes a:hover h5{color:#ba1700}.paginacao a{height:30px;width:30px;font-size:14px;color:#7e8082;text-align:center;display:flex;align-items:center;justify-content:center}.paginacao a:hover{background:#ba1700;border-radius:100%;color:#FFF}.paginacao .active{background:#ba1700;border-radius:100%;color:#FFF}.lista_blog{padding-bottom:200px}
+.blog_title { height: 168px; background: #ba1700; display: flex; align-items: center; }
+
+.blog_title h1 { font-size: 30px; font-weight: 600; color: #FFF; display: flex; align-items: center; text-transform: uppercase; font-family: 'Montserrat', sans-serif; }
+
+.lista_blog { padding-top: 71px; }
+
+.lista_blog h3 { font-weight: 600; color: #ba1700; line-height: 25px; font-size: 24px; margin-bottom: 2px; font-family: 'Montserrat', sans-serif; }
+
+.lista_blog .data { text-transform: uppercase; color: #a3a5a8; font-size: 14px; font-weight: 400; font-family: 'Montserrat', sans-serif; }
+
+.lista_blog .imagem_post { padding-top: 13px; }
+
+.lista_blog p { font-size: 15px; color: #7e8082; line-height: 20px; letter-spacing: -0.025em; margin-bottom: 20px; margin-top: 12px; font-family: 'Montserrat', sans-serif; }
+
+.lista_blog .botoes_post { padding-top: 11px; border-top: 1px solid #dedede; align-items: center; }
+
+.lista_blog .botoes_post .leia_mais { width: 171px; height: 40px; display: flex; align-items: center; justify-content: center; color: #FFF; background: #ba1700; font-size: 14px; color: #FFF; font-weight: 600; font-family: 'Montserrat', sans-serif; text-transform: uppercase; }
+
+.lista_blog .botoes_post .leia_mais:hover { background: #a39a8a; }
+
+.lista_blog .botoes_post .bface { background-position: -222px -440px; }
+
+.lista_blog .botoes_post .btw { background-position: -272px -440px; }
+
+.lista_blog .botoes_post .bgoo { background-position: -322px -440px; }
+
+.lista_blog .botoes_post .bwhats { background-position: -372px -440px; }
+
+.lista_blog .botoes_post .social_post a { width: 41px; height: 40px; margin-right: 13px; }
+
+.lista_blog .botoes_post .social_post a:last-child { margin-right: 0; }
+
+.lista_blog .botoes_post .social_post a:hover { filter: grayscale(100%); }
+
+.cada_post { padding-bottom: 37px; }
+
+.sidebar { padding-left: 40px; }
+
+.sidebar .buscar { position: relative; }
+
+.sidebar .buscar input { height: 35px; background: #f1ede4; border: none; width: 100%; display: flex; align-items: center; font-family: 'Montserrat', sans-serif; padding-left: 8px; }
+
+.sidebar .buscar input::placeholder { font-size: 14px; text-transform: uppercase; color: #9c927f; }
+
+.sidebar .buscar .lupa { position: absolute; top: 7px; right: 9px; width: 21px; height: 20px; background-position: -239px -255px; border: 0; padding: 0; }
+
+.sidebar h4 { text-transform: uppercase; font-size: 18px; color: #4b4e53; font-weight: 600; border-bottom: 1px solid #f2eee6; padding-bottom: 7px; margin-bottom: 20px; font-family: 'Montserrat', sans-serif; }
+
+.sidebar ul { list-style: none; padding: 0; }
+
+.sidebar ul a { height: 30px; margin-bottom: 8px; padding-left: 9px; font-size: 14px; color: #4b4e53; font-weight: normal; width: 100%; font-family: 'Montserrat', sans-serif; display: flex; align-items: center; }
+
+.sidebar ul a:hover { background: #f1ede4; color: #ba1700; }
+
+.sidebar .categorias { padding-top: 53px; }
+
+.sidebar .posts_recentes { padding-top: 33px; }
+
+.sidebar .recente { padding-left: 9px; align-items: center; padding-top: 20px; padding-bottom: 20px; font-family: 'Montserrat', sans-serif; }
+
+.sidebar .info_recente { padding-left: 9px; }
+
+.sidebar .info_recente h5 { font-size: 14px; letter-spacing: -0.05em; color: #4b4e53; margin-top: 0; margin-bottom: -2px; font-weight: 600; text-transform: uppercase; font-family: 'Montserrat', sans-serif; }
+
+.sidebar .info_recente span { color: #4b4e53; font-size: 12px; letter-spacing: -0.025em; }
+
+.sidebar .tags { padding-bottom: 33px; padding-top: 33px; }
+
+.sidebar .tags a { height: 32px; border: 1px solid #dfdfdf; font-size: 12px; letter-spacing: -0.025em; text-transform: uppercase; align-items: center; color: #7e8082; padding: 0 14px; display: flex; font-family: 'Montserrat', sans-serif; margin: 5px; }
+
+.sidebar .tags a:hover { background: #f1ede4; color: #ba1700; }
+
+.sidebar .posts_recentes a { text-decoration: none; font-family: 'Montserrat', sans-serif; }
+
+.posts_recentes a:hover > .recente { background: #f1ede4; }
+
+.posts_recentes a:hover h5 { color: #ba1700; }
+
+.paginacao a { height: 30px; width: 30px; font-size: 14px; color: #7e8082; text-align: center; display: flex; align-items: center; justify-content: center; }
+
+.paginacao a:hover { background: #ba1700; border-radius: 100%; color: #FFF; }
+
+.paginacao .active { background: #ba1700; border-radius: 100%; color: #FFF; }
+
+.lista_blog { padding-bottom: 200px; }

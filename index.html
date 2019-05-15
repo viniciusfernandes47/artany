@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <title>Artany</title>
@@ -50,7 +51,7 @@
                     </div>
                 </nav>
 
-                <div class="menu_sociais d-md-block d-none">
+                <div class="menu_sociais d-sm-block d-none">
                     <div class="h-100 d-flex">
                         <div class="menu">
                             <nav class="navbar navbar-expand-lg stroke">
@@ -116,7 +117,21 @@
             <div class="carousel-item active">
                 <picture>
                     <source media="(max-width: 460px)" srcset="images/home/banner01-mobile.jpg">
-                    <source media="(min-width: 768px) and (max-width: 1024px)" srcset="images/slide01-ipad.jpg">
+                    <img src="images/home/banner01.jpg" alt="">
+                </picture>
+                <div class="container">
+                    <div class="legenda">
+                        <div class="borda" data-aos="fade-down">
+                            <img src="images/home/texto-banner.png" alt="">
+                            <h3>soluções inovadoras</h3>
+                        </div>
+                        <button class="btn principal" data-aos="fade-up">CONHECER ESSA LINHA</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <picture>
+                    <source media="(max-width: 460px)" srcset="images/home/banner01-mobile.jpg">
                     <img src="images/home/banner01.jpg" alt="">
                 </picture>
                 <div class="container">
@@ -142,15 +157,15 @@
     <section class="linhas">
         <div class="container espacamento_lateral">
             <div class="row mobile_linha">
-                <div class="p-0 cada_linha">
+                <div class="p-0 cada_linha" data-aos="fade-down">
                     <img src="images/home/executiva.jpg" alt="">
                     <h3>Linha <br><span>Executiva</span></h3>
                 </div>
-                <div class="p-0 cada_linha">
+                <div class="p-0 cada_linha" data-aos="fade-up">
                     <img src="images/home/y3.jpg" alt="">
                     <h3><img src="images/home/y37.png" alt=""></h3>
                 </div>
-                <div class="p-0 cada_linha">
+                <div class="p-0 cada_linha" data-aos="fade-down">
                     <img src="images/home/executiva.jpg" alt="">
                     <h3>Linha <br><span>Home Office</span></h3>
                 </div>
@@ -163,13 +178,13 @@
             <div class="row">
                 <div class="col-lg-8 lista_blog">
                     <div class="row">
-                        <div class="col-lg-6 cada_blog pl-md-0 px-4 mb-md-0 mb-4">
+                        <div class="col-lg-6 col-sm-6 cada_blog pl-md-0 px-4 mb-md-0 mb-4" data-aos="fade-down">
                             <img src="images/home/blog01.jpg" alt="">
                             <h2>Titulo do Post Blog 01 com duas linhas</h2>
                             <p>Sometimes the simplest things are the hardest to find. So we created a new lineSometimes the simplest things are the hardest to find. So we created a new line</p>
                             <a href="#" class="leia">Leia +</a>
                         </div>
-                        <div class="col-lg-6 cada_blog pl-md-1 px-4 mb-md-0 mb-4">
+                        <div class="col-lg-6 col-sm-6 cada_blog pl-md-1 px-4 mb-md-0 mb-4" data-aos="fade-up">
                             <img src="images/home/blog02.jpg" alt="">
                             <h2>Tamburato</h2>
                             <p>Sometimes the simplest things are the hardest to find. So we created a new lineSometimes the simplest things are the hardest to find. So we created a new line</p>
@@ -177,7 +192,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 p-0 facebook pl-1">
+                <div class="col-lg-4 p-0 facebook pl-1" data-aos="fade-down">
                         <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fartanyoficial%2F&tabs=timeline&width=380&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=603656950060572" width="100%" height="442" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                 </div>
             </div>
@@ -203,8 +218,8 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="selos">
-                            <a href="#" class="sprite ambiental"></a>
-                            <a href="#" class="sprite bnds"></a>
+                            <a href="#" class="sprite ambiental" data-aos="fade-up"></a>
+                            <a href="#" class="sprite bnds" data-aos="fade-down"></a>
                         </div>
                     </div>
                 </div>
@@ -227,6 +242,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

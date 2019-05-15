@@ -126,3 +126,5 @@ $('a[href^="#"]').on('click', function(event) {
       }, 1000);
   }
 });   
+
+AOS.init();

@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/representante.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -107,11 +108,11 @@
     <section class="encontre_representante">
         <div class="container espacamento_lateral">
             <div class="titulo_page">
-            <h1>Onde Comprar</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <h1 data-aos="fade-down">Onde Comprar</h1>
+            <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             </div>
             <div class="d-flex select_representante">
-                    <div class="filtro_select estado">
+                    <div class="filtro_select estado" data-aos="fade-down">
                         <div class="custom-select2-wrapper">
                             <select name="Estado" id="finalidade" class="custom-select2 sources" style="display: none;">
                             <option value="sp">SP</option>
@@ -120,7 +121,7 @@
                             </select>
                         </div>
                     </div>
-                    <div class="filtro_select cidade">
+                    <div class="filtro_select cidade" data-aos="fade-up">
                         <div class="custom-select2-wrapper">
                             <select name="Cidade" id="finalidade" class="custom-select2 sources" style="display: none;">
                             <option value="sp">São Paulo</option>
@@ -129,7 +130,7 @@
                             </select>
                         </div>
                     </div>
-                    <div class="filtro_select bairro">
+                    <div class="filtro_select bairro" data-aos="fade-down">
                         <div class="custom-select2-wrapper">
                             <select name="Bairro" id="finalidade" class="custom-select2 sources" style="display: none;">
                             <option value="sp">Centro</option>
@@ -138,17 +139,17 @@
                             </select>
                         </div>
                     </div>
-                    <button class="ver_listagem">Ver listagem</button>
-                    <button class="ver_mapa">Ver no mapa</button>
+                    <button class="ver_listagem" data-aos="fade-up">Ver listagem</button>
+                    <button class="ver_mapa" data-aos="fade-down">Ver no mapa</button>
             </div>
-            <div class="mapa">
+            <div class="mapa" data-aos="fade-down">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.8110043912375!2d-49.177681084827846!3d-25.51134894235879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcf0e92be05003%3A0x719803fe6233f4!2sR.+Maur%C3%ADlio+da+Cruz%2C+119+-+Vila+Ina%2C+S%C3%A3o+Jos%C3%A9+dos+Pinhais+-+PR%2C+83065-200!5e0!3m2!1spt-BR!2sbr!4v1557759703742!5m2!1spt-BR!2sbr" width="100%" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
     </section>
 
 
-    <section class="encontre">
+    <section class="encontre" data-aos="fade-down">
             <div class="container px-0">
                 <div class="d-flex caixa_encontre">
                     <h2>Encontre a loja Artany mais próxima</h2>
@@ -197,8 +198,8 @@
                         </div>
                         <div class="col-lg-4">
                             <div class="selos">
-                                <a href="#" class="sprite ambiental"></a>
-                                <a href="#" class="sprite bnds"></a>
+                                <a href="#" class="sprite ambiental" data-aos="fade-down"></a>
+                                <a href="#" class="sprite bnds" data-aos="fade-up"></a>
                             </div>
                         </div>
                     </div>
@@ -221,6 +222,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
