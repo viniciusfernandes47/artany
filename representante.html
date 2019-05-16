@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -75,10 +75,10 @@
                                         </div>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             Onde Comprar <span class="caret"></span>
                                         </a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
                                             <a class="dropdown-item" href="#">Lojas</a>
                                             <a class="dropdown-item" href="#">Representantes</a>
                                             <a class="dropdown-item" href="#">Lojas Online</a>
@@ -114,7 +114,7 @@
             <div class="d-flex select_representante">
                     <div class="filtro_select estado" data-aos="fade-down">
                         <div class="custom-select2-wrapper">
-                            <select name="Estado" id="finalidade" class="custom-select2 sources" style="display: none;">
+                            <select name="Estado" id="estado" class="custom-select2 sources" style="display: none;">
                             <option value="sp">SP</option>
                             <option value="mg">MG</option>
                             <option value="es">ES</option>
@@ -123,7 +123,7 @@
                     </div>
                     <div class="filtro_select cidade" data-aos="fade-up">
                         <div class="custom-select2-wrapper">
-                            <select name="Cidade" id="finalidade" class="custom-select2 sources" style="display: none;">
+                            <select name="Cidade" id="cidade" class="custom-select2 sources" style="display: none;">
                             <option value="sp">São Paulo</option>
                             <option value="mg">Curitiba</option>
                             <option value="es">São José dos Pinhais</option>
@@ -132,7 +132,7 @@
                     </div>
                     <div class="filtro_select bairro" data-aos="fade-down">
                         <div class="custom-select2-wrapper">
-                            <select name="Bairro" id="finalidade" class="custom-select2 sources" style="display: none;">
+                            <select name="Bairro" id="bairro" class="custom-select2 sources" style="display: none;">
                             <option value="sp">Centro</option>
                             <option value="mg">Zona Sul</option>
                             <option value="es">Zona Leste</option>
@@ -143,7 +143,7 @@
                     <button class="ver_mapa" data-aos="fade-down">Ver no mapa</button>
             </div>
             <div class="mapa" data-aos="fade-down">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.8110043912375!2d-49.177681084827846!3d-25.51134894235879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcf0e92be05003%3A0x719803fe6233f4!2sR.+Maur%C3%ADlio+da+Cruz%2C+119+-+Vila+Ina%2C+S%C3%A3o+Jos%C3%A9+dos+Pinhais+-+PR%2C+83065-200!5e0!3m2!1spt-BR!2sbr!4v1557759703742!5m2!1spt-BR!2sbr" width="100%" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.8110043912375!2d-49.177681084827846!3d-25.51134894235879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcf0e92be05003%3A0x719803fe6233f4!2sR.+Maur%C3%ADlio+da+Cruz%2C+119+-+Vila+Ina%2C+S%C3%A3o+Jos%C3%A9+dos+Pinhais+-+PR%2C+83065-200!5e0!3m2!1spt-BR!2sbr!4v1557759703742!5m2!1spt-BR!2sbr" width="100%" height="440" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
     </section>
@@ -156,7 +156,7 @@
                     <div class="d-flex encontre_search">
                         <div class="filtro_select">
                           <div class="custom-select2-wrapper">
-                            <select name="UF" id="finalidade" class="custom-select2 sources" style="display: none;">
+                            <select name="UF" id="uf" class="custom-select2 sources" style="display: none;">
                             <option value="sp">SP</option>
                             <option value="mg">MG</option>
                             <option value="es">ES</option>
@@ -226,4 +226,4 @@
 <script src="js/script.js"></script>
 </body>
 </html>
-</body>
+
