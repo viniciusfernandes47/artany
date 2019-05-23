@@ -128,3 +128,12 @@ $('a[href^="#"]').on('click', function(event) {
 });   
 
 AOS.init();
+
+var maxHeight = 0;
+
+$(".dentro_produto h3").each(function(){
+   if ($(this).height() > maxHeight) { maxHeight = $(this).height(); }
+});
+var meuHeight = parseInt(40);
+maxHeight = meuHeight + maxHeight;
+$(".dentro_produto h3").height(maxHeight);

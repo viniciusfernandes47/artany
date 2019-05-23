@@ -223,6 +223,7 @@ a.dropdown-item:before, a.dropdown-item:after {
         }
     }
     .pint {
+        display: none; // Pintrest icone
         width: 27px;
         height: 27px;
         background-position: -66px -6px;
@@ -235,6 +236,7 @@ a.dropdown-item:before, a.dropdown-item:after {
 .idioma {
     position: absolute;
     display: inline-flex;
+    display: none; // Retirada das bandeiras
     top: -28px;
     right: 27px;
     .brasil {
@@ -951,10 +953,16 @@ button.slick-prev {
 /* Produtos */
 .cada_produto {
     margin-bottom: 27px;
+    position: relative;
+}
+.dentro_produto {
+    background: #f7f5f0;
+    height: 100%;
 }
 .imagem_produto {
     border: 1px solid #f7f5f0;
     overflow: hidden;
+    background: #fff;
 }
 .cada_produto h3 {
     font-size: 13px;
@@ -965,10 +973,8 @@ button.slick-prev {
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    padding: 0px 31px;
-    background: #f7f5f0;
+    padding: 0 31px;
     margin-bottom: 0;
-    min-height: 79px;
     display: flex;
     align-items: center;
     transition: 0.6s;
@@ -988,7 +994,10 @@ width: 165px;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-    margin-top: -12px;
+    position: absolute;
+    bottom: -9px;
+    left: 50%;
+    transform: translateX(-50%);
     &:hover {
         background: #a39a8a;
         color: #931907;
@@ -1065,6 +1074,13 @@ width: 165px;
 /* Menu mobile */
 
 /* start menu */
+
+.menu_sociais {
+    flex-grow: 1 !important;
+    .h-100 {
+        justify-content: space-around;
+    }
+}
 
 .hamburger {
     position: absolute;

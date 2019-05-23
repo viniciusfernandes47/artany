@@ -103,6 +103,22 @@
         margin-top: 24px;
         justify-content: center;
     }
+
+    .tamburato {
+        img {
+            max-width: 100%;
+        }
+        .title_tamburato {
+            padding: 8px 50px;
+            &:after {
+                width: 38%;
+            }
+        }
+        p {
+            padding-right: 20px;
+            font-size: 15px;
+        }
+    }
 }
 @media (max-width: 480px) 
 {
@@ -617,4 +633,22 @@
         overflow-x: hidden;
     }
     
+    .tamburato {
+        .title_tamburato {
+            padding: 8px 31px;
+            &:after {
+                width: 45%;
+                right: 0;
+                margin-right: 0;
+            }
+        }
+        p {
+            padding-right: 0;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            left: 0;
+        }
+    }
 }

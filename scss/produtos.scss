@@ -250,8 +250,8 @@ section.caracteristicas {
         background:#f7f5f0;
     }
     a {
-        padding-left: 36px;
-        height: 46px;
+        padding-left: 66px;
+        min-height: 46px;
         border-bottom: 2px solid #d2d2d2;
     display: flex;
     align-items: center;
@@ -265,6 +265,8 @@ section.caracteristicas {
         background: url(../images/assets/sprites.png) no-repeat;
         background-position: -216px -11px;
         margin-right: 13px;
+        position: absolute;
+        left: 54px;
     }
     &:hover {
         background: #d51a15;

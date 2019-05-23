@@ -171,3 +171,44 @@
 	}
 }
 
+.tamburato {
+	padding-top: 51px;
+	padding-bottom: 75px;
+	p {
+		font-size: 16px;
+    font-weight: 500;
+    color: #938a79;
+    line-height: 22px;
+    text-align: left;
+	margin-bottom: 25px;
+	padding-right: 94px;
+	font-family: 'Montserrat', sans-serif;
+	}
+	.title_tamburato {
+		color: #931907;
+		border: 2px solid;
+		letter-spacing: 0.025em;
+		font-size: 15.43px;
+		text-transform: uppercase;
+		font-weight: 600;
+		padding: 8px 62px;
+		display: inline-block;
+		margin-bottom: 20px;
+		font-family: 'Montserrat', sans-serif;
+		&:after {
+			position: absolute;
+			content: '';
+			width: 59%;
+			height: 2px;
+			background: #931907;
+			top: 18px;
+			right: 9px;
+			margin-right: 14px;
+		}
+	}
+	img {
+		position: relative;
+		top: -14px;
+		left: -21px;
+	}
+}

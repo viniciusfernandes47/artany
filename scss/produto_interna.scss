@@ -118,24 +118,24 @@
 .slider-nav button.slick-prev {
     background: url(../images/assets/sprites.png);
     background-repeat: no-repeat;
-    background-position: -273px -4px !important;
+	background-position: -293px -5px !important;
     width: 43px;
     height: 41px;
     z-index: 3;
     left: 0;
-    background-size: 411px;
+    background-size: 370px;
     transition: 0.4s;
 }
 
 .slider-nav button.slick-next {
     background: url(../images/assets/sprites.png);
     background-repeat: no-repeat;
-    background-position: -273px -50px !important;
+    background-position: -293px -54px !important;
     width: 43px;
     height: 41px;
     z-index: 3;
     right: 0;
-    background-size: 411px;
+    background-size: 370px;
     transition: 0.4s;
 }
 
@@ -175,7 +175,10 @@
 }
 
 .veja_produtos {
-	background:#f7f6f2;
+	background-color:#f7f6f2;
+	background-image: url(../images/produto_interna/effectv4.png);
+	background-repeat: no-repeat;
+    background-position: center -20px;
 	padding-top:51px;
 	padding-bottom: 82px;
     h2 {
