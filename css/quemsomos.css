@@ -1,1 +1,59 @@
-.titulo_quem{position:relative;height:474px;background:#ba1700}.titulo_quem h1{display:inline-block;font-size:59px;line-height:60px;letter-spacing:0.025em;color:#FFF;text-transform:uppercase;margin-bottom:32px;font-family:'Montserrat', sans-serif}.titulo_quem h1 span{font-weight:900}.titulo_quem .titulo_align{display:flex;align-self:flex-end}.imagem_direita{position:absolute;top:0;right:0;width:50%;background:url(../images/quemsomos/artany.jpg);height:474px}.efeito_titulo{background:url(../images/quemsomos/effect_titulo.png) no-repeat 43% 0%;width:100%;position:absolute;top:0;height:100%}.texto_quem{padding-top:42px}.texto_quem p{color:#575555;font-weight:400;font-size:15px;line-height:20px;letter-spacing:0.025em;margin-bottom:21px;font-family:'Montserrat', sans-serif}.texto_quem h2{color:#ba1700;font-size:28px;font-weight:700;line-height:33px;letter-spacing:0.025em;text-transform:uppercase;margin-top:21px;margin-bottom:75px;font-family:'Montserrat', sans-serif}.paragrafo{padding-right:25px}.missao{background:#d51a15;padding-bottom:43px;padding-top:43px;margin-top:68px}.cada_missao .titulo_missao{align-items:center;justify-content:center;margin-bottom:25px}.cada_missao h3{color:#FFF;font-weight:600;font-size:18px;letter-spacing:0.24em;line-height:20px;text-transform:uppercase;padding-left:22px;margin-bottom:0;font-family:'Montserrat', sans-serif}.cada_missao p{font-size:15px;font-weight:400;color:#FFF;line-height:20px;padding:0 38px;text-align:center;margin-bottom:0;letter-spacing:0.025em;font-family:'Montserrat', sans-serif}.icone_missao{width:59px;height:57px;background-position:-271px -114px}.icone_visao{width:59px;height:51px;background-position:-267px -172px}.icone_valores{width:53px;height:52px;background-position:-266px -225px}.natureza{background:#a39a8a;position:relative}.natureza p{font-size:15px;line-height:20px;letter-spacing:0.025em;font-weight:400;color:#ffffff;margin-bottom:25px;font-family:'Montserrat', sans-serif}.natureza h2{color:#FFF;font-size:43px;line-height:43px;letter-spacing:0.025em;padding-left:42px;font-family:'Montserrat', sans-serif;text-transform:uppercase;position:relative;z-index:3}.natureza h2 span{font-weight:900}.natureza .imagem_natureza{width:50%;height:100%;position:absolute;background:url(../images/quemsomos/natureza.jpg);top:0;left:0;z-index:1}.natureza .natureza_align{display:flex;align-items:center}.natureza .madeira{position:absolute;z-index:1;display:flex;width:100%;justify-content:center;height:100%;align-items:center}.natureza .paragrafo_natureza{padding-left:75px;padding-top:53px;padding-bottom:33px}.tamburato{padding-top:51px;padding-bottom:75px}.tamburato p{font-size:16px;font-weight:500;color:#938a79;line-height:22px;text-align:left;margin-bottom:25px;padding-right:94px;font-family:'Montserrat', sans-serif}.tamburato .title_tamburato{color:#931907;border:2px solid;letter-spacing:0.025em;font-size:15.43px;text-transform:uppercase;font-weight:600;padding:8px 62px;display:inline-block;margin-bottom:20px;font-family:'Montserrat', sans-serif}.tamburato .title_tamburato:after{position:absolute;content:'';width:59%;height:2px;background:#931907;top:18px;right:9px;margin-right:14px}.tamburato img{position:relative;top:-14px;left:-21px}
+.titulo_quem { position: relative; height: 474px; background: #ba1700; }
+
+.titulo_quem h1 { display: inline-block; font-size: 59px; line-height: 60px; letter-spacing: 0.025em; color: #FFF; text-transform: uppercase; margin-bottom: 32px; font-family: 'Montserrat', sans-serif; }
+
+.titulo_quem h1 span { font-weight: 900; }
+
+.titulo_quem .titulo_align { display: flex; align-self: flex-end; }
+
+.imagem_direita { position: absolute; top: 0; right: 0; width: 50%; background: url(../images/quemsomos/artany.jpg); height: 474px; }
+
+.efeito_titulo { background: url(../images/quemsomos/effect_titulo.png) no-repeat 43% 0%; width: 100%; position: absolute; top: 0; height: 100%; }
+
+.texto_quem { padding-top: 42px; }
+
+.texto_quem p { color: #575555; font-weight: 400; font-size: 15px; line-height: 20px; letter-spacing: 0.025em; margin-bottom: 21px; font-family: 'Montserrat', sans-serif; }
+
+.texto_quem h2 { color: #ba1700; font-size: 28px; font-weight: 700; line-height: 33px; letter-spacing: 0.025em; text-transform: uppercase; margin-top: 21px; margin-bottom: 75px; font-family: 'Montserrat', sans-serif; }
+
+.paragrafo { padding-right: 25px; }
+
+.missao { background: #d51a15; padding-bottom: 43px; padding-top: 43px; margin-top: 68px; }
+
+.cada_missao .titulo_missao { align-items: center; justify-content: center; margin-bottom: 25px; }
+
+.cada_missao h3 { color: #FFF; font-weight: 600; font-size: 18px; letter-spacing: 0.24em; line-height: 20px; text-transform: uppercase; padding-left: 22px; margin-bottom: 0; font-family: 'Montserrat', sans-serif; }
+
+.cada_missao p { font-size: 15px; font-weight: 400; color: #FFF; line-height: 20px; padding: 0 38px; text-align: center; margin-bottom: 0; letter-spacing: 0.025em; font-family: 'Montserrat', sans-serif; }
+
+.icone_missao { width: 59px; height: 57px; background-position: -271px -114px; }
+
+.icone_visao { width: 59px; height: 51px; background-position: -267px -172px; }
+
+.icone_valores { width: 53px; height: 52px; background-position: -266px -225px; }
+
+.natureza { background: #a39a8a; position: relative; }
+
+.natureza p { font-size: 15px; line-height: 20px; letter-spacing: 0.025em; font-weight: 400; color: #ffffff; margin-bottom: 25px; font-family: 'Montserrat', sans-serif; }
+
+.natureza h2 { color: #FFF; font-size: 43px; line-height: 43px; letter-spacing: 0.025em; padding-left: 42px; font-family: 'Montserrat', sans-serif; text-transform: uppercase; position: relative; z-index: 3; }
+
+.natureza h2 span { font-weight: 900; }
+
+.natureza .imagem_natureza { width: 50%; height: 100%; position: absolute; background: url(../images/quemsomos/natureza.jpg); top: 0; left: 0; z-index: 1; }
+
+.natureza .natureza_align { display: flex; align-items: center; }
+
+.natureza .madeira { position: absolute; z-index: 1; display: flex; width: 100%; justify-content: center; height: 100%; align-items: center; }
+
+.natureza .paragrafo_natureza { padding-left: 75px; padding-top: 53px; padding-bottom: 33px; }
+
+.tamburato { padding-top: 51px; padding-bottom: 75px; }
+
+.tamburato p { font-size: 16px; font-weight: 500; color: #938a79; line-height: 22px; text-align: left; margin-bottom: 25px; padding-right: 94px; font-family: 'Montserrat', sans-serif; }
+
+.tamburato .title_tamburato { color: #931907; border: 2px solid; letter-spacing: 0.025em; font-size: 15.43px; text-transform: uppercase; font-weight: 600; padding: 8px 62px; display: inline-block; margin-bottom: 20px; font-family: 'Montserrat', sans-serif; }
+
+.tamburato .title_tamburato:after { position: absolute; content: ''; width: 59%; height: 2px; background: #931907; top: 18px; right: 9px; margin-right: 14px; }
+
+.tamburato img { position: relative; top: -14px; left: -21px; }

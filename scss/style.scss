@@ -660,9 +660,13 @@ section.encontre {
     transition: .5s;
     background: #d8dade;
     position: absolute;
-    width: 183px;
     top: 39px;
-    padding: 0 11px;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    white-space: nowrap;
+    padding: 0px 11px;
+    width: auto;
     .item_download {
         height: 43px;
         display: flex;
