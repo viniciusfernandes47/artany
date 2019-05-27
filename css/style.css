@@ -1,7 +1,9 @@
 @charset "UTF-8";
 @import url("https://use.typekit.net/mek1fpy.css");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,900");
-body { font-family: lato, sans-serif; }
+body { font-family: lato, sans-serif; overflow-x: hidden; }
+
+html { overflow-x: hidden; }
 
 .sprite { background: url(../images/assets/sprites.png); background-repeat: no-repeat; }
 
