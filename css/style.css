@@ -296,21 +296,19 @@ button.slick-prev { background: url(../images/assets/sprites.png); background-re
 
 .compartilhar { margin-top: 22px; }
 
-.compartilhar a { width: 33px; height: 32px; }
+.compartilhar a { width: 33px; height: 32px; display: flex; justify-content: center; align-items: center; background: #00aced; color: #FFF; }
 
-.compartilhar a:hover { filter: grayscale(100%); }
+.compartilhar a:hover { filter: grayscale(100%); text-decoration: none; }
 
-.compartilhar .tw { background-position: -3px -163px; }
+.compartilhar a:nth-of-type(2) { background: #3b5998; }
 
-.compartilhar .fb { background-position: -36px -163px; }
+.compartilhar a:nth-of-type(3) { background: #cb2027; }
 
-.compartilhar .pin { background-position: -69px -163px; }
+.compartilhar a:nth-of-type(4) { background: #dd4b39; }
 
-.compartilhar .goo { background-position: -102px -163px; }
+.compartilhar a:nth-of-type(5) { background: #aaaaaa; }
 
-.compartilhar .mail { background-position: -135px -163px; }
-
-.compartilhar .king { background-position: -168px -163px; }
+.compartilhar a:nth-of-type(6) { background: #0f52ba; }
 
 /* Produtos */
 .cada_produto { margin-bottom: 27px; position: relative; }
