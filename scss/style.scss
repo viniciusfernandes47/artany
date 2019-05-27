@@ -1233,10 +1233,12 @@ width: 165px;
 }
 
 .facebook iframe {
-    max-width: 100%;
-    width: 100%;
+    min-width: 100%;
+    width: 100px;
+    *width: 100%;
 }
 .face_incorporar iframe {
-    max-width: 100%;
-    width: 100%;
+    min-width: 100%;
+    width: 100px;
+    *width: 100%;
 }

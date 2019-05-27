@@ -387,6 +387,6 @@ button.slick-prev { background: url(../images/assets/sprites.png); background-re
 
 .imagem_post img { max-width: 100%; }
 
-.facebook iframe { max-width: 100%; width: 100%; }
+.facebook iframe { min-width: 100%; width: 100px; *width: 100%; }
 
-.face_incorporar iframe { max-width: 100%; width: 100%; }
+.face_incorporar iframe { min-width: 100%; width: 100px; *width: 100%; }
