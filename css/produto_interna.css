@@ -2,7 +2,7 @@
 
 .vermelho_produto { background-image: url(../images/produto_interna/effectv3.png); background-repeat: no-repeat; background-position: center; background-position-y: 0; background-color: #ba1700; height: 241px; width: 100%; position: absolute; top: 0; left: 0; z-index: 1; }
 
-.slider_produto, .titulo_descricao { position: relative; z-index: 4; padding-left: 23px; }
+.slider_produto, .titulo_descricao { position: relative; z-index: 4; padding-left: 41px; }
 
 .titulo_descricao .breadcrumbv2 { padding-top: 38px; }
 
@@ -28,15 +28,15 @@
 
 .slider-nav .slick-list { margin-left: -14px; }
 
-.slider-nav { overflow: hidden; padding-top: 11px; }
+.slider-nav { padding-top: 11px; }
 
 .cada_foto .overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; box-shadow: 0px 1px 54px 0px rgba(0, 0, 0, 0.15) inset; }
 
 .slider_produto { padding: 0; padding-top: 36px; -ms-flex: 0 0 41.666667%; flex: 0 0 43.666667%; max-width: 43.666667%; }
 
-.slider-nav button.slick-prev { background: url(../images/assets/sprites.png); background-repeat: no-repeat; background-position: -293px -5px !important; width: 43px; height: 41px; z-index: 3; left: 0; background-size: 370px; transition: 0.4s; }
+.slider-nav button.slick-prev { background: url(../images/assets/sprites.png); background-repeat: no-repeat; background-position: -293px -5px !important; width: 43px; height: 41px; z-index: 3; left: -27px; background-size: 370px; transition: 0.4s; }
 
-.slider-nav button.slick-next { background: url(../images/assets/sprites.png); background-repeat: no-repeat; background-position: -293px -54px !important; width: 43px; height: 41px; z-index: 3; right: 0; background-size: 370px; transition: 0.4s; }
+.slider-nav button.slick-next { background: url(../images/assets/sprites.png); background-repeat: no-repeat; background-position: -293px -54px !important; width: 43px; height: 41px; z-index: 3; right: -27px; background-size: 370px; transition: 0.4s; }
 
 .outras_info { position: relative; margin-top: 37px; padding-bottom: 5px; }
 
@@ -54,7 +54,7 @@
 
 .veja_produtos h3 { padding: 0px 20px; background: #f0ece3; }
 
-.ampliar { width: 35px; height: 31px; position: absolute; bottom: 31px; right: 19px; z-index: 5; background-position: -233px -220px; }
+.ampliar { width: 35px; height: 31px; position: absolute; bottom: 26%; right: 19px; z-index: 5; background-position: -233px -220px; }
 
 /* voltar para */
 .voltar_para { position: fixed; left: 0; bottom: 5%; width: 170px; height: 94px; background-color: #810f0c; background-size: cover; background-blend-mode: multiply; padding: 18px 18px; padding-left: 26px; z-index: 10; transition: 0.6s; }

@@ -43,6 +43,13 @@ $('.slider_quem').slick({
   dots: false
 });
 
+$('.slider_quem_mobile').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  dots: false
+});
+
  $('.slider-for').slick({
   slidesToShow: 1,
   slidesToScroll: 1,

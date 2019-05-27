@@ -4,6 +4,8 @@
 
 .lista_blog { padding-top: 71px; }
 
+.lista_blog img { max-width: 100%; }
+
 .lista_blog h3 { font-weight: 600; color: #ba1700; line-height: 25px; font-size: 24px; margin-bottom: 2px; font-family: 'Montserrat', sans-serif; }
 
 .lista_blog .data { text-transform: uppercase; color: #a3a5a8; font-size: 14px; font-weight: 400; font-family: 'Montserrat', sans-serif; }

@@ -40,10 +40,11 @@
   .localizacao { padding-left: 0; justify-content: center; text-align: center; padding-top: 14px; }
   .fundo_selos { position: absolute; top: 231px; height: 140px; background: #a39a8a; width: 100%; right: 0; z-index: 1; }
   .selos { padding-left: 0; padding-top: 40px; }
+  .selos .ambiental { margin-right: 23px; }
   .footer_top { padding-bottom: 22px; }
   a.sprite.face_footer { display: none; }
   .red { width: 72px; }
-  .direitos { padding-right: 31px; }
+  .direitos { padding-right: 3px; font-size: 12px; }
   /*Banner */
   .legenda { position: absolute; top: 25%; padding-left: 48px; z-index: 4; padding-right: 64px; }
   .legenda img { width: 100%; }
@@ -129,8 +130,8 @@
   .select_representante .ver_listagem { width: 165px; margin-right: 3px; }
   .select_representante .ver_mapa { width: 170px; }
   .select_representante button { font-size: 15px; letter-spacing: 0.1em; }
-  .select_representante .ver_mapa { width: 142px; height: 34px; margin-top: 11px; }
-  .select_representante .ver_listagem { width: 139px; margin-right: 3px; margin-top: 11px; }
+  .select_representante .ver_mapa { width: 49%; height: auto; margin-top: 11px; padding: 10px 0; }
+  .select_representante .ver_listagem { width: 49%; margin-right: 3px; margin-top: 11px; padding: 10px 0; }
   /*contato */
   .map .margin_contato { margin-right: 0px; margin-left: -1px; }
   /* Blog */
@@ -152,4 +153,13 @@
   .tamburato .title_tamburato { padding: 8px 31px; }
   .tamburato .title_tamburato:after { width: 45%; right: 0; margin-right: 0; }
   .tamburato p { padding-right: 0; text-align: center; }
-  .tamburato img { max-width: 100%; left: 0; } }
+  .tamburato img { max-width: 100%; left: 0; }
+  /* desabilitando custom select no iphone */
+  .custom-select2-wrapper select { width: 70px; position: relative; margin-right: 11px; display: flex; width: 70px; height: 50px; font-size: 16px; padding-left: 13px; font-weight: bold; color: #a39a8a; line-height: 45px; background: #f0ece3; border-radius: 0; cursor: pointer; display: block !important; }
+  .custom-select2 { display: none !important; }
+  .cidade_select select { width: 153px; }
+  .select_representante select { width: 100%; }
+  /* caracteristicas */
+  .caracteristicas .espacamento_lateral { padding: 0; }
+  .cara { background: #ba1700; padding: 0 33px; padding-bottom: 30px; }
+  .cores { padding: 0 33px !important; } }
