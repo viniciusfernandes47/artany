@@ -386,3 +386,7 @@ button.slick-prev { background: url(../images/assets/sprites.png); background-re
 .mobile_menu .socialTopo { margin: 0; justify-content: flex-end; padding-top: 10px; }
 
 .imagem_post img { max-width: 100%; }
+
+.facebook iframe { max-width: 100%; width: 100%; }
+
+.face_incorporar iframe { max-width: 100%; width: 100%; }
