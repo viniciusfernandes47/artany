@@ -144,3 +144,5 @@ $(".dentro_produto h3").each(function(){
 var meuHeight = parseInt(40);
 maxHeight = meuHeight + maxHeight;
 $(".dentro_produto h3").height(maxHeight);
+
+/* Fixar Scroll */

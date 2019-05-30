@@ -5,7 +5,6 @@ $lato: lato, sans-serif;
 $mont: 'Montserrat', sans-serif;
 body {
     font-family: $lato;
-    overflow-x: hidden; 
 }
 html {
     overflow-x: hidden; 
@@ -33,8 +32,8 @@ header {
     position: -moz-sticky;
     position: -ms-sticky;
     position: -o-sticky;
-    top: 0;
     z-index: 999;
+    top: 0;
 }
 .navbar {
     padding: 0;
@@ -370,6 +369,8 @@ section.linhas {
 }
 .blog {
     margin-top: 28px;
+    max-width: 100%;
+    overflow: hidden;
 }
 .cada_blog {
     h2 {
