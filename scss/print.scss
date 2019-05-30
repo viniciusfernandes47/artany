@@ -1,4 +1,14 @@
 @media print {
+    header {
+        position: relative;
+        top: 0;
+    }
+    .vermelho_produto {
+        display: none;
+    }
+    nav.navigation {
+        display: none;
+    }
     [data-aos] {
         display: block !important;
         opacity: 1 !important;
@@ -52,5 +62,11 @@
     }
     .link_voltar {
         display: none;
+    }
+    .slider_produto {
+        float: left;
+    }
+    .titulo_descricao {
+        float: left;
     }
 }
